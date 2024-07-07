@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+main {
+    width: 600px;
+    height: 100%;
+    background-color: silver;
+    padding: 10px;
+}
+
+.inputSection p {
+    padding: 10px 0;
+}
+
+.inputSection input{
+    width: 80%;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.inputSection button {
+    padding: 5px;
+    background-color: rgb(18, 137, 216);
+    color: white;
+    border: 1px solid rgb(18, 137, 216);
+    border-radius: 5px;
+}
+
+.tareasSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+#listaTareas {
+    display: flex;
+    flex-direction: column;
+}
+
+#listaTareas p {
+    padding: 5px 8px 0 0;
+    height: 30px;
+}
+
+#listaTareas input {
+    margin-right: 5px;
+}
+
+#listaTareas button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(18, 137, 216);
+    border: 1px solid  rgb(18, 137, 216);
+    color: white;
+}
+
+#listaTareas div {
+    display: flex;
+    margin: 5px 0;
+}
